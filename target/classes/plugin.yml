@@ -1,0 +1,12 @@
+name: OfflineBody
+version: 0.1
+description: "Create a NPC when player logout."
+author: IanDesuyo
+
+main: io.github.IanDesuyo.offlineBody.App
+depend: [Citizens]
+
+permissions:
+  offlinebody.bypass:
+    description: Bypass the player.
+    default: op
